@@ -48,7 +48,6 @@ export function AddEmployeeModal({ isOpen, onClose }: Props) {
     if (!name) return;
 
     addEmployee({
-      id: crypto.randomUUID(),
       name,
       role,
       baseCommission,
